@@ -1,0 +1,33 @@
+<style>
+body {
+ font-family: Arial, sans-serif;
+ color: white;
+}
+
+a {
+ color: #FFD700;
+ text-decoration: none;
+}
+
+a:hover {
+ text-decoration: underline;
+}
+
+h1 {
+ color: #FFD700;
+}
+
+.center {
+ display: flex;
+ justify-content: center;
+}
+
+.button {
+ background-color: #FFD700;
+ color: white;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 5px;
+ text-decoration: none;
+}
+</style>

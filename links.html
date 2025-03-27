@@ -1,0 +1,56 @@
+<!-- links.html -->
+<html>
+<head>
+ <title>Royal Blood - Источники</title>
+</head>
+<body background="MyCollages.png" bgcolor="#333">
+ <p align="center">
+ <a href="index.html">Главная</a> |
+ <a href="info.html">Состав группы</a> |
+ <a href="history.html">История</a> |
+ <a href="info.html">Дискография</a> |
+ <a href="links.html">Источники</a> |
+ <a href="contacts.html">Контакты</a>
+ </p>
+ <style>
+ol {
+    position: absolute;
+    top: 53%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    padding: 0;
+    display: flex; /* Располагаем элементы горизонтально */
+}
+
+ol li {
+    position: relative;
+    padding: 0 15px;
+}
+
+ol li::after {
+    content: '|';
+    position: absolute;
+    right: 0;
+    transform: translateX(100%);
+}
+
+ol li:last-child::after {
+    display: none; /* Убираем разделитель после последней ссылки */
+}
+
+ol li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #962121;
+}
+</style>
+<ol>
+    <li><a href="https://ru.wikipedia.org/wiki/Royal_Blood">Википедия</a></li>
+    <li><a href="https://music.yandex.ru/artist/3086521">Яндекс Музыка</a></li>
+    <li><a href="https://www.royalbloodofficial.com/">Официальный сайт</a></li>
+    <li><a href="https://open.spotify.com/artist/4Z8W4fKeB5kxSEKJZOsF6u">Spotify</a></li>
+    <li><a href="https://genius.com/artists/Royal-blood">Genius</a></li>
+</ol>
+</body>
+</html>
